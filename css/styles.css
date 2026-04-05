@@ -1,0 +1,238 @@
+section {
+    padding: 20px;
+    margin: 0 auto 20px auto;
+    max-width: 800px;
+    border: 1px solid gray;
+    background-color: rgb(235, 239, 246);
+    color: black;
+    text-align: justify;
+    box-shadow: 0 5px 8px rgba(0,0,0,0.1);
+    border-top: 5px solid blue;
+}
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:rgb(180, 202, 221);
+    color: black;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+#nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #083d8e; 
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #446595;
+}
+
+#nav a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 0;
+    flex: 1;
+    text-align: center;
+    transition: color 0.3s;
+}
+
+#nav a:hover {
+    color: black;
+}
+
+h1 {
+    color: #011027;
+    font-weight: bolder;
+    font-family: Arial Black;
+    margin-top: 0;
+}
+
+h2 {
+    color: #2f0591;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #011027; 
+    padding-bottom: 10px;
+    margin-top: 0;
+}
+
+button {
+    background-color: #4e5e76;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+}
+
+button:hover {
+    background-color: #223366;
+}
+
+#darkModeToggle {
+    background-color: #010a1a;
+    color: white;
+    cursor: pointer;
+    padding: 8px 14px;
+    border-radius: 6px;
+    font-size: 20px;
+}
+
+#darkModeToggle:hover {
+    background-color: #223366;
+}
+
+h4 {
+    margin-top: 10px;
+}
+
+p, li {
+    margin-bottom: 5px;
+}
+
+.about_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    gap: 20px;               
+    flex-wrap: wrap;
+}
+
+.about_container .about_text {
+    flex: 1;               
+    min-width: 250px;
+    text-align: left;
+    font-weight: bold;    
+}
+
+.about_text a {
+    text-decoration: none;
+    color: #446595;
+}
+
+.about_container .about_image {
+    flex: 0 0 150px;       
+}
+
+.about_image img {
+    display: block;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 3px solid #040f1f;
+    margin: 0;    
+}
+
+#summary {
+    margin-top: 15px;
+    text-align: justify;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+footer {
+    text-align: center;
+    padding: 15px 0;
+    background-color: #083d8e;
+    color: white;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.hidden {
+    display: none;
+}
+
+
+body.dark-mode {
+    background-color: #1a1a1a;
+    color: #f0f0f0;
+}
+
+body.dark-mode section {
+    background-color: #333;
+    color: #f0f0f0;
+    border-top: 5px solid rgb(170, 170, 228);
+}
+
+body.dark-mode #nav {
+    background-color: #000080;
+}
+
+body.dark-mode a {
+    color: #f0f0f0;
+}
+
+body.dark-mode h1 {
+    color: rgb(236, 239, 245);
+}
+
+body.dark-mode h2 {
+    color: rgb(184, 216, 247);
+    border-bottom: 2px solid #e9ecf0; 
+    padding-bottom: 10px;
+}
+
+body.dark-mode #welcomemessage {
+    color: #94afd9;
+}
+
+body.dark-mode .floating-btn {
+    background-color: #dadae5;
+}
+
+body.dark-mode .floating-btn:hover{
+    background-color: #8790ab;
+}
+
+#welcomemessage {
+    width: 100%;
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+    color: #011027;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    display: block;
+    border-bottom: 2px solid #011027; 
+    padding-bottom: 10px; 
+}
+
+.floating-btn {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background-color: #fbfdff;
+    color: white;
+    border: none;
+    padding: 15px 18px;
+    border-radius: 50%;
+    font-size: 18px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    z-index: 1000;
+    font-size: larger;
+}
+
+.floating-btn:hover {
+    background-color: #8790ab;
+}

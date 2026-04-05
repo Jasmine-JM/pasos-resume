@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Project</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header>
+    <nav id="nav">
+        <a href="#about">ABOUT</a>
+        <a href="#education">EDUCATION</a>
+        <a href="#skills">SKILLS</a>
+        <a href="#projects">PROJECTS</a>
+        <a href="#contact">CONTACT</a>
+        <button id="darkModeToggle">☾</button>
+    </nav>
+</header>
+
+<main>
+
+<section id="about">
+    <div class="about_container">
+        <div id="welcomemessage"></div>
+        <div class="about_text">
+            <h1>Jasmine Mae Valmores Pasos</h1>
+            <p>🏠︎: Purok 9 - Damilag, Manolo Fortich, Bukidnon</p>
+            <p>✉︎: jasminemaevalmorespasos@gmail.com</p>
+            <p>✆: 09975885639</p>
+        </div>
+
+        <div class="about_image">
+            <img src="assets/profile.jpg" alt="Jasmine Pasos Photo">
+        </div>
+    </div>
+
+    <p id="summary">Fresh graduate with a Bachelor’s degree in Information Technology, interested in web development. Basic knowledge in HTML, CSS, and JavaScript, with experience in creating simple websites through school projects. Willing to learn, hardworking, and eager to gain real-world experience in a web development role.</p>
+</section>
+
+
+<section id="education">
+    <h2>Education</h2>
+    <ul>
+        <li> 
+            <h4>Tertiary Education (Bachelor of Science in Information Technology)</h4>
+            <p>University of Science and Technology of Southern Philippines</p>
+            <p>2024 - 2028</p>
+        </li>
+
+        <li>
+            <h4>Senior High School (Accountancy, Business, and Management)</h4>
+            <p>Manolo Fortich National High School</p>
+            <p>2022 - 2024</p>
+        </li>
+
+        <li>
+            <h4>Junior High School</h4>
+            <p>Damilag Integrated School</p>
+            <p>2018 - 2022</p>
+        </li>
+
+        <li>
+            <h4>Elementary</h4>
+            <p>Damilag Elementary School</p>
+            <p>2012 - 2018</p>
+        </li>
+    </ul>
+</section>
+
+
+<section id="skills">
+    <h2>Skills</h2>
+
+    <ul id="skillList">
+        <li>Basic HTML, CSS, JavaScript</li>
+        <li>Basic MySQL</li>
+        <li>Basic graphic design</li>
+        <li>Microsoft Office (Word, Excel, Powerpoint, Publisher)</li>
+        <li>Teamwork, Communication, and Time Management</li>
+    </ul>
+</section>
+
+
+<section id="projects">
+    <h2>Projects</h2>
+
+    <ul>
+        <li>
+            <h4>Online Selling System (Database-Focused)</h4>
+            <p>- Built a simple system using Apache Netbeans and MySQL.</p>
+            <p>- Managed products, users, and orders with CRUD functions.</p>
+        </li>
+
+        <li>
+            <h4>Resume Website Creation Project</h4>
+            <p>- Created a responsive resume website using HTML, CSS, and JavaScript.</p>
+            <p>- Designed simple layout for user-friendly navigation.</p>
+        </li>
+
+        <li>
+            <h4>Multiplayer Tetris Game</h4>
+            <p>- Developed a basic multiplayer game using Python.</p>
+            <p>- Implemented game logic and player interaction.</p>
+        </li>
+    </ul>
+
+    <button id="viewmoreproj">View More</button>
+    <div id="moreproject" class="hidden">
+        <ul>
+            <li>
+                <h4>OOP Banking System</h4>
+                <p>- Created a simple banking system with simple user interface.</p>
+                <p>- Applied OOP concepts and added features like deposit and withdrawal.</p>
+            </li>
+
+            <li>
+                <h4>File-Based Banking System</h4>
+                <p>- Built a simple system using file handling.</p>
+                <p>- Stored and retrieved data from text files.</p>
+            </li>
+        </ul>
+    </div>
+</section>
+
+
+<section id="contact">
+    <h2>Contact Form</h2>
+    <form id="contactForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit">Send</button>
+    </form>
+
+</section>
+
+<button id="downloadResume" class="floating-btn">📥</button>
+
+</main>
+
+
+<footer>
+    <p>© 2026 Jasmine Mae V. Pasos</p>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="js/script.js"></script>
+    
+</body>
+</html>
+
