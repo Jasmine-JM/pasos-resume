@@ -11,6 +11,7 @@ GitHub Pages Link: (add your link here)
 AI Tool(s) Used: ChatGPT
 
 Purpose of AI Use (check all that apply):
+
 ☑ Brainstorming  
 ☑ Layout/UI ideas  
 ☑ Debugging  
