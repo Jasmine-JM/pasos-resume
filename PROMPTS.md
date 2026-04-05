@@ -4,7 +4,7 @@ Name: Jasmine Mae Valmores Pasos
 Section: IT2R6  
 
 Video Link: https://youtu.be/PRCgP8J6K2A  
-GitHub Pages Link: (add your link here)
+GitHub Pages Link: https://jasmine-jm.github.io/pasos-resume/
 
 ---
 
