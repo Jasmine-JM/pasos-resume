@@ -19,7 +19,7 @@ AI Output (screenshot):
 
 How I used/modified it in my project:
 - I wrapped my navigation bar inside a header and nav element.  
-- I used <section> instead of <div> for better semantic structure.  
+- I used section instead of div for better semantic structure.  
 - I fixed the list structure in the education section.  
 - I added a footer section.  
 
