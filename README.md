@@ -18,7 +18,7 @@ Purpose of AI Use (check all that apply):
 ☑ Code generation  
 ☑ Refactoring  
 ☑ Style suggestions  
-☑ Other: _________
+Other: _________
 
 Where AI was used (short description):
 AI was used to help generate ideas for the resume layout, suggest CSS styling improvements, assist in writing JavaScript and jQuery features, and debug minor issues in the code. Some generated code was modified to fit the project requirements.
